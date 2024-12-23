@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		0183FC252D19664100E16303 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183FC222D19664100E16303 /* ContentView.swift */; };
+		0183FC262D19664100E16303 /* SampleXcodeCloudApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0183FC232D19664100E16303 /* SampleXcodeCloudApp.swift */; };
+		0183FC272D19664100E16303 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0183FC1F2D19664100E16303 /* Preview Assets.xcassets */; };
+		0183FC282D19664100E16303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0183FC212D19664100E16303 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		0183FC0E2D19663D00E16303 /* SampleXcodeCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleXcodeCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0183FC1F2D19664100E16303 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0183FC212D19664100E16303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0183FC222D19664100E16303 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0183FC232D19664100E16303 /* SampleXcodeCloudApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleXcodeCloudApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		0183FC102D19663D00E16303 /* SampleXcodeCloud */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SampleXcodeCloud;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0183FC0B2D19663D00E16303 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		0183FC052D19663D00E16303 = {
 			isa = PBXGroup;
 			children = (
-				0183FC102D19663D00E16303 /* SampleXcodeCloud */,
+				0183FC242D19664100E16303 /* SampleXcodeCloud */,
 				0183FC0F2D19663D00E16303 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				0183FC0E2D19663D00E16303 /* SampleXcodeCloud.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		0183FC202D19664100E16303 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0183FC1F2D19664100E16303 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0183FC242D19664100E16303 /* SampleXcodeCloud */ = {
+			isa = PBXGroup;
+			children = (
+				0183FC202D19664100E16303 /* Preview Content */,
+				0183FC212D19664100E16303 /* Assets.xcassets */,
+				0183FC222D19664100E16303 /* ContentView.swift */,
+				0183FC232D19664100E16303 /* SampleXcodeCloudApp.swift */,
+			);
+			path = SampleXcodeCloud;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				0183FC102D19663D00E16303 /* SampleXcodeCloud */,
 			);
 			name = SampleXcodeCloud;
 			packageProductDependencies = (
@@ -109,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0183FC272D19664100E16303 /* Preview Assets.xcassets in Resources */,
+				0183FC282D19664100E16303 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0183FC252D19664100E16303 /* ContentView.swift in Sources */,
+				0183FC262D19664100E16303 /* SampleXcodeCloudApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +281,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,8 +312,10 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
